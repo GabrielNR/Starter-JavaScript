@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+    var endereco = {
+            rua: 'Rua dos pinheiros',
+            numero: 1293,
+            bairro: 'centro',
+            cidade: 'Sao Paulo',
+            uf: 'SP'
+        };
+
+    function formatadorEndereco(end){
+        return `O usuario mora em ${end.cidade} / ${end.uf}, no bairro ${end.bairro}, na rua ${end.rua} com o nº ${end.numero}`
+        // O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº 1293.
+    }
+
+
+
+console.log(formatadorEndereco(endereco));
+       
+    </script>
+    
+</body>
+</html>
